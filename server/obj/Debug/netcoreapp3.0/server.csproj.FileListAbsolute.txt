@@ -1,0 +1,7 @@
+C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\server\obj\Debug\netcoreapp3.0\server.csproj.AssemblyReference.cache
+C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\server\obj\Debug\netcoreapp3.0\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\server\obj\Debug\netcoreapp3.0\server.AssemblyInfoInputs.cache
+C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\server\obj\Debug\netcoreapp3.0\server.AssemblyInfo.cs
+C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\server\obj\Debug\netcoreapp3.0\server.csproj.CoreCompileInputs.cache
+C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\server\obj\Debug\netcoreapp3.0\server.dll
+C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\server\obj\Debug\netcoreapp3.0\server.pdb

@@ -1,0 +1,2 @@
+models/Ejemplo.cs \
+models/EjemploGrpc.cs: ../ejemplo.proto

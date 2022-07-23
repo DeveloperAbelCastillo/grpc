@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package ejemplo;
+
+message Persona {
+	string Uuid = 1;
+	string usuario = 2;
+	string Clave = 3;
+	string Nombre = 4;
+	string ApellidoPaterno = 5;
+	string ApellidoMaterno = 6;
+	string Email = 7;
+	string Avatar = 8;
+	string Genero = 9;
+	string Telefono = 10;
+	string NSS = 11;
+	string FechaNacimiento = 12;
+}
+
+message SaludoRequest {
+	Persona persona = 1;
+}
+
+message SaludoResponse {
+	string result = 1;
+}
+
+message PersonasCantidadRequest {
+	int32 cantidad = 1;
+}
+
+message PersonaResponse {
+	Persona persona = 1;
+}
+
+service EjemploService {
+	rpc Saludar (SaludoRequest) returns (SaludoResponse) {}
+	rpc GenerarListaPersonas (PersonasCantidadRequest) returns (stream PersonaResponse) {}
+}
