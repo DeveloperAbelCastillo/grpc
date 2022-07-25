@@ -43,15 +43,14 @@ C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\bin\Debug\net5.0\runti
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\bin\Debug\net5.0\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\bin\Debug\net5.0\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\bin\Debug\net5.0\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
-C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.csproj.AssemblyReference.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.AssemblyInfoInputs.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.AssemblyInfo.cs
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.csproj.CoreCompileInputs.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.csproj.CopyComplete
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.dll
-C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\refint\server.dll
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.pdb
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\server.genruntimeconfig.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\obj\Debug\net5.0\ref\server.dll
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\server\bin\Debug\net5.0\ref\server.dll

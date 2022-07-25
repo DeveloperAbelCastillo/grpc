@@ -67,26 +67,28 @@ namespace client
 
         public static async Task ObtenerListaPersonas(EjemploService.EjemploServiceClient client)
         {
-            var request = new PersonasCantidadRequest() { Cantidad = 10 };
+            var request = new PersonasCantidadRequest() { Cantidad =  5000};
             var response = client.GenerarListaPersonas(request);
+            int contador = 1;
 
             while (await response.ResponseStream.MoveNext())
             {
                 var persona = response.ResponseStream.Current.Persona;
                 Console.WriteLine("**********************************************************");
-                //Console.WriteLine("Id: " + persona.Id);
-                //Console.WriteLine("Uid: " + persona.Uid);
-                //Console.WriteLine("Password: " + persona.Password);
-                //Console.WriteLine("Nombre: " + persona.FirstName);
-                //Console.WriteLine("Apellido: " + persona.LastName);
-                //Console.WriteLine("Usuario: " + persona.Username);
-                //Console.WriteLine("Email: " + persona.Email);
-                //Console.WriteLine("Avatar: " + persona.Avatar);
-                //Console.WriteLine("Genero: " + persona.Gender);
-                //Console.WriteLine("Genero: " + persona.Gender);
-                //Console.WriteLine("Telefono: " + persona.PhoneNumber);
-                //Console.WriteLine("Seguro: " + persona.SocialInsuranceNumber);
-                //Console.WriteLine("Nacimiento: " + persona.DateOfBirth);
+                Console.WriteLine("*****   Registro No.: " + contador++);
+                Console.WriteLine("**********************************************************");
+                Console.WriteLine("Uuid: " + persona.Uuid);
+                Console.WriteLine("Usuario: " + persona.Usuario);
+                Console.WriteLine("Clave: " + persona.Clave);
+                Console.WriteLine("Nombre: " + persona.Nombre);
+                Console.WriteLine("ApellidoPaterno: " + persona.ApellidoPaterno);
+                Console.WriteLine("ApellidoMaterno: " + persona.ApellidoMaterno);
+                Console.WriteLine("Email: " + persona.Email);
+                Console.WriteLine("Avatar: " + persona.Avatar);
+                Console.WriteLine("Genero: " + persona.Genero);
+                Console.WriteLine("Telefono: " + persona.Telefono);
+                Console.WriteLine("NSS: " + persona.NSS);
+                Console.WriteLine("FechaNacimiento: " + persona.FechaNacimiento);
             }
         }
     }

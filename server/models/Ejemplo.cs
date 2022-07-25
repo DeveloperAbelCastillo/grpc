@@ -25,7 +25,7 @@ namespace Ejemplo {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Cg1lamVtcGxvLnByb3RvEgdlamVtcGxvIuABCgdQZXJzb25hEgwKBFV1aWQY",
-            "ASABKAkSDwoHdXN1YXJpbxgCIAEoCRINCgVDbGF2ZRgDIAEoCRIOCgZOb21i",
+            "ASABKAkSDwoHVXN1YXJpbxgCIAEoCRINCgVDbGF2ZRgDIAEoCRIOCgZOb21i",
             "cmUYBCABKAkSFwoPQXBlbGxpZG9QYXRlcm5vGAUgASgJEhcKD0FwZWxsaWRv",
             "TWF0ZXJubxgGIAEoCRINCgVFbWFpbBgHIAEoCRIOCgZBdmF0YXIYCCABKAkS",
             "DgoGR2VuZXJvGAkgASgJEhAKCFRlbGVmb25vGAogASgJEgsKA05TUxgLIAEo",
@@ -119,7 +119,7 @@ namespace Ejemplo {
       }
     }
 
-    /// <summary>Field number for the "usuario" field.</summary>
+    /// <summary>Field number for the "Usuario" field.</summary>
     public const int UsuarioFieldNumber = 2;
     private string usuario_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

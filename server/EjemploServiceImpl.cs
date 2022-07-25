@@ -25,13 +25,21 @@ namespace server
             Console.WriteLine("Se realizo una peticion al servicio get_personas");
             
             await Task.Delay(300);
-            
-            var result = await PersonaHelper.GenerarListaPersonas(request.Cantidad);
-            
-            //recorrer result yh devolver por strem
-            foreach (Persona persona in result)
+
+            try
             {
-                await responseStream.WriteAsync(new PersonaResponse() { Persona = persona });
+                var result = await PersonaHelper.GenerarListaPersonas(request.Cantidad);
+            
+                //recorrer result yh devolver por strem
+                foreach (Persona persona in result)
+                {
+                    await responseStream.WriteAsync(new PersonaResponse() { Persona = persona });
+                    Console.WriteLine("Se envia la Uuid: " + persona.Uuid);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
     }

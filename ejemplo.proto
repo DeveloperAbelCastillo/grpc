@@ -4,7 +4,7 @@ package ejemplo;
 
 message Persona {
 	string Uuid = 1;
-	string usuario = 2;
+	string Usuario = 2;
 	string Clave = 3;
 	string Nombre = 4;
 	string ApellidoPaterno = 5;

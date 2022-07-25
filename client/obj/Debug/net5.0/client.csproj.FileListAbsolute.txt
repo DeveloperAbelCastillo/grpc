@@ -26,13 +26,11 @@ C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_de
 C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\client\obj\Debug\net5.0\client.genruntimeconfig.cache
 C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\client\obj\Debug\net5.0\client.csproj.AssemblyReference.cache
 C:\Users\A0943031120\source\repos\gRPC\grpc-csharp-course\advanced\great_with_deadline\client\obj\Debug\net5.0\refint\client.dll
-C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.csproj.AssemblyReference.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.AssemblyInfoInputs.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.AssemblyInfo.cs
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.csproj.CoreCompileInputs.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.dll
-C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\refint\client.dll
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.pdb
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\bin\Debug\net5.0\ssl\ca.crt
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\bin\Debug\net5.0\ssl\client.crt
@@ -55,3 +53,4 @@ C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\clien
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\client.genruntimeconfig.cache
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\obj\Debug\net5.0\ref\client.dll
 C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\A0943031120\source\repos\gRPC\grpcEjemplo\client\bin\Debug\net5.0\ref\client.dll
